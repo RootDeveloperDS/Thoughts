@@ -1,6 +1,6 @@
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyAu9ylboEmEZkgMjAZ1dLUbI8BsYUavH_M")  # Replace with YOUR actual API key
+genai.configure(api_key="api key")  # Replace with YOUR actual API key
 
 try:
     model = genai.GenerativeModel("gemini-1.0-pro")
