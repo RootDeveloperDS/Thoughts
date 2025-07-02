@@ -4,7 +4,7 @@ import gtts
 import os
 
 # Set up the Gemini API key
-genai.configure(api_key="AIzaSyANVvoqGuhR5_YFHOi5-4Jze26KmYHWXY4")  # Replace with your API Key
+genai.configure(api_key="API key")  # Replace with your API Key
 
 # Initialize the model
 model = genai.GenerativeModel("gemini-2.0-flash")
